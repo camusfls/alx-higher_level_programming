@@ -1,7 +1,6 @@
 #!/usr/bin/python3
 import random
 number = random.randint(-10, 10)
-print("Last digit of {:d} is {:d} " .format(number, mod), end="")
 if number > 0:
     print("{:d} is positive".format(number))
 elif number == 0:
